@@ -1,0 +1,6 @@
+@EpiDocAPI_HostAddress = http://localhost:5129
+
+GET {{EpiDocAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
