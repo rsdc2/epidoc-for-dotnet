@@ -12,11 +12,7 @@ Public Module Xml
         Return XDocument.Load(path)
     End Function
 
-    Function Edition() As XElement
-        Return <div type="edition"/>
-    End Function
-
-    Function Word(ByVal text As String) As XElement
+    Function W(ByVal text As String) As XElement
         Return <w><%= text %></w>
     End Function
 
