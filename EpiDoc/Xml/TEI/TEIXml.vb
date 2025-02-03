@@ -9,12 +9,12 @@ Public Module TEIXml
         Return <TEIHeader/>
     End Function
 
-    Function TEIDoc() As XDocument
-        Return <?xml version="1.0" encoding="UTF-8"?>
-               <TEI>
-                   <%= TEIHeader() %>
-                   <%= Edition() %>
-               </TEI>
-    End Function
+    'Function TEIDoc() As XDocument
+    '    Return <?xml version="1.0" encoding="UTF-8"?>
+    '           <TEI>
+    '               <%= TEIHeader() %>
+    '               <%= Edition() %>
+    '           </TEI>
+    'End Function
 
 End Module

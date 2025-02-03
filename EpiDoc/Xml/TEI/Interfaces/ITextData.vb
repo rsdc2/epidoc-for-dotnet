@@ -1,7 +1,7 @@
 ﻿Imports System.Xml.Serialization
 
 Namespace TEINS
-    Public Interface IChildOfEdition
+    Public Interface ITextData
         Inherits IXmlSerializable
 
     End Interface
